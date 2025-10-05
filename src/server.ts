@@ -48,9 +48,9 @@ async function createUser(user: { name: string, email: string, address: string, 
     }).then(m => m.default);
 
     const id = users.length + 1;
-    users.push({ id, ...user });
-    fs.writeFile("./src/data/users.json", JSON.stringify(user, null, 2))
-    return id;
+     users.push({ id, ...user })
+     await fs.writeFile("./src/data/users.json", JSON.stringify(users, null, 2))
+    return id
 }
 async function main() {
     const transport = new StdioServerTransport();

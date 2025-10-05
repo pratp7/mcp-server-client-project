@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": 1,
     "name": "Alice Johnson",
     "email": "alice@test.com",
@@ -19,5 +19,19 @@
     "email": "charlie@test.com",
     "address": "123 Main St, Omaha, NE",
     "phone": "555-8765"
+  },
+  {
+    "id": 4,
+    "name": "Prat",
+    "email": "test@gmail.com",
+    "address": "some test steet, test town, India",
+    "phone": "3333333344"
+  },
+  {
+    "id": 5,
+    "name": "Praty",
+    "email": "test1@gmail.com",
+    "address": "some test steet, test tow2n, India",
+    "phone": "3333333343"
   }
 ]
